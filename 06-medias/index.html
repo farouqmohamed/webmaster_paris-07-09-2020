@@ -9,5 +9,50 @@
         <h1>Les medias</h1>
 
         <h2>Images:</h2>
+        <!-- alt: ALernative Text -->
+        <img
+            src="ressources/images/landscape.png"
+            width="64"
+            alt="image d'un portrait"
+        />
+        <img src="https://jardinage.lemonde.fr/images/dossiers/2017-09/akita-inu-2-144329.jpg"  width="128">
+
+        <!-- Image avec une légende -->
+        <figure>
+            <img
+                src="ressources/images/paint-bucket.png"
+                alt="Image d'un pot de peinture"
+                width="64">
+            <figcaption>Super pot de peinture</figcaption>
+        </figure>
+
+        <a href="https://www.flaticon.com/">
+            <img src="ressources/images/wrench.png" alt="Image d'une clé à molette">
+        </a>
+
+        <video
+            src="ressources/video/tortue.mp4"
+            width="500"
+            autoplay
+            muted
+            controls
+        >
+            Votre navigateur ne supporte pas les vidéos
+        </video>
+
+        <video width="500" controls>
+            <source src="ressources/video/tortue.mp4">
+            <source src="ressources/video/tortue.avi">
+            <track
+                label="Français"
+                kind="subtitles"
+                src="ressources/video/fr_subtitle.vtt"
+            />
+        </video>
+
+        <audio
+            src="ressources/audio/0283.mp3"
+            controls>
+        </audio>
     </body>
 </html>
